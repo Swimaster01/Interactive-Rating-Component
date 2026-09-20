@@ -139,6 +139,10 @@ main {
 
 }
 
+.thankyou-card {
+    display: none;
+}
+
 .ratingResult {
     background-color: #364350;
     padding: 7px 20px;
@@ -166,3 +170,32 @@ main {
     font-size: .9rem;
 }
 
+@media (max-width: 600px) {
+    .rating-card {
+        padding: 25px;
+    }
+
+    .btn {
+        width: 45px;
+        height: 45px;
+    }
+
+    .content p {
+    font-size: 0.85rem;
+    }
+
+    .thankyou-card {
+        padding: 25px;
+        gap: 25px;
+    }
+
+    .thankyou-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .thankyou-content p {
+    text-align: center;
+    font-size: .8rem;
+    padding: 10px;
+    }
+}
